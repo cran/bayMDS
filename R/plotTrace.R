@@ -20,7 +20,7 @@
 #' @export
 #' @examples
 #' data(cityDIST)
-#' result <- bmdsMCMC(cityDIST,p=3,nwarm=500,niter=3000)
+#' result <- bmdsMCMC(cityDIST,p=3,nwarm=1000,niter=2000)
 #' plotTrace(result,para=c("del","sigma", "lambda"))
 
 

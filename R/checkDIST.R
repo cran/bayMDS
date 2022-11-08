@@ -13,7 +13,7 @@
 
 
 checkDIST=function(dist,...){
-  if(class(dist)=="dist"){
+  if(inherits(dist,"dist")){
   DIST =as.matrix(dist)
   } else if(sum(diag(dist)!=0)){
      if(dist[upper.tri(dist)]==0){

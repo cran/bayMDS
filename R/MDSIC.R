@@ -33,8 +33,10 @@
 
 MDSIC=function(x, plot=TRUE,...){
   y=0;
-  if(class(x) != 'bmds') { stop("incorrect class of 'x.bmds' ",call.=FALSE)}
-  if(x$min_p != 1) {stop("to compute MDSIC, bmds should be run with min_p=1",call.=FALSE)} 
+  if(!inherits(x, 'bmds')) { 
+    stop("incorrect class of 'x.bmds' ",call.=FALSE)}
+  if(x$min_p != 1) {
+    stop("to compute MDSIC, bmds should be run with min_p=1",call.=FALSE)} 
   
   n=nrow(x$DIST)
   m=as.integer(n*(n-1)/2)
