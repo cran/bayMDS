@@ -1,4 +1,4 @@
-dada29642120bb994fa4afd6ec2419c6 *DESCRIPTION
+7b9078ff24c4541cd7d8519ed0dbdc8d *DESCRIPTION
 85ae72551052e8b557a96ce4eca82043 *NAMESPACE
 ff8d2b0151bbe09b9fbaedd37a178ece *R/MDSIC.R
 4e7266cc1aeb84a5c97578f99b3b123b *R/RcppExports.R
@@ -19,7 +19,7 @@ eef4bf4411940cd5895f11c04a94aa6c *man/distRcpp.Rd
 4dbbf1425482ecb381bcae21b166e912 *man/plotDelDist.Rd
 011fe813d54aef21664faffc9316dee6 *man/plotObj.Rd
 a63f5de3db8d5e14a66c9da2f97ef105 *man/plotTrace.Rd
-61059660eb073d93e00e8ee054237071 *src/Makevars
-61059660eb073d93e00e8ee054237071 *src/Makevars.win
+47da09e37c80561a180584aa9d5e2744 *src/Makevars
+6c1a95d836ada31627dec565713e7462 *src/Makevars.win
 b4fcece1306cbb3ad2131f7beddc812d *src/RcppExports.cpp
-58273f24312f5f321bb480a1467ba139 *src/bmdsMCMC.cpp
+0383a368edcd0bca04b53bd250816993 *src/bmdsMCMC.cpp

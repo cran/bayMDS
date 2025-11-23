@@ -74,7 +74,7 @@ arma::mat rg(const arma::mat& w,double scale,int num) {
   
   for (int j=0;j<num;j++){
     for(int i = 0; i<p;i++){
-      lambda(j,i)=arma::conv_to<double>::from(arma::randg<arma::mat>(1,1,arma::distr_param(w(i),scale)));
+      lambda(j,i)=arma::as_scalar(arma::randg<arma::mat>(1,1,arma::distr_param(w(i),scale)));
     }
   }
   return mean(lambda.rows(0,num-1),0);    

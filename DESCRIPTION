@@ -1,8 +1,8 @@
 Package: bayMDS
 Type: Package
 Title: Bayesian Multidimensional Scaling and Choice of Dimension
-Version: 2.0
-Date: 2022-11-04
+Version: 2.1
+Date: 2025-11-20
 Authors@R: 
     c(person(given = "Man-Suk",
            family = "Oh",
@@ -19,9 +19,9 @@ LinkingTo: Rcpp, RcppArmadillo
 Encoding: UTF-8
 RoxygenNote: 7.2.1
 NeedsCompilation: yes
-Packaged: 2022-11-04 07:40:01 UTC; EKLee
+Packaged: 2025-11-22 00:47:20 UTC; HP
 Author: Man-Suk Oh [aut, cre],
   Eun-Kyung Lee [aut]
 Maintainer: Man-Suk Oh <msoh@ewha.ac.kr>
 Repository: CRAN
-Date/Publication: 2022-11-08 03:20:03 UTC
+Date/Publication: 2025-11-23 08:20:02 UTC
